@@ -1,0 +1,448 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    background-image: url("/images/universo.jpg");
+}
+
+#check {
+    display: none;
+}
+
+audio {
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+#icone {
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.barra {
+    background-color: transparent;
+    opacity: 0.8;
+    height: 100%;
+    width: 300px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+
+nav a {
+    text-decoration: nane;
+}
+
+.link {
+    background-color: #494950;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    transition: all .2s linear;
+    color: #f4f4f9;
+    border-bottom: 2px solid #222;
+    opacity: 0;
+    margin-top: 200px;
+}
+
+.link:hover {
+    background-color: #050542;
+}
+
+#check:checked~.barra {
+    transform: translateX(300px);
+    z-index: 9999;
+}
+
+#check:checked~.barra nav a .link {
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: 0.2s;
+}
+
+#center {
+    text-align: center;
+}
+
+#title_center {
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+#name_system {
+    color: white;
+    font-family: Times;
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.music {
+    display: none;
+}
+
+@keyframes acercar {
+    10% {
+        transform: scale(0.5);
+        background-color: black;
+    }
+    50% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1.0);
+        background-color: white;
+    }
+}
+
+.contenedor-barra {
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    transform: rotate(180deg);
+}
+
+.line1 {
+    width: 30px;
+    height: 80px;
+    background-color: gray;
+    animation: uno .5s infinite ease-out;
+}
+
+@keyframes uno {
+    50% {
+        height: 20px;
+    }
+    100% {
+        height: 150px;
+    }
+}
+
+.line2 {
+    width: 30px;
+    height: 80px;
+    background-color: white;
+    animation: dos .5s infinite ease-out;
+    animation-duration: 1s;
+}
+
+@keyframes dos {
+    50% {
+        height: 10px;
+        background-color: white;
+    }
+    100% {
+        height: 80px;
+        background-color: brown;
+    }
+}
+
+.line3 {
+    width: 30px;
+    height: 80px;
+    background-color: gray;
+    animation: tres .5s infinite ease-out;
+}
+
+@keyframes tres {
+    50% {
+        height: 60px;
+    }
+    100% {
+        height: 150px;
+    }
+}
+
+.line4 {
+    width: 30px;
+    height: 80px;
+    background-color: white;
+    animation: cuatro .5s infinite ease-out;
+    animation-duration: 1s;
+}
+
+@keyframes cuatro {
+    50% {
+        height: 90px;
+        background-color: brown;
+    }
+    100% {
+        height: 150px;
+        background-color: white;
+    }
+}
+
+.line5 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: cinco .5s infinite ease-out;
+}
+
+@keyframes cinco {
+    50% {
+        height: 50px;
+    }
+    100% {
+        height: 70px;
+    }
+}
+
+.line6 {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: seis .5s infinite ease-out;
+}
+
+@keyframes seis {
+    50% {
+        height: 100px;
+        background-color: white;
+    }
+    100% {
+        height: 150px;
+        background-color: brown;
+    }
+}
+
+.line8 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: ocho .5s infinite ease-out;
+}
+
+@keyframes ocho {
+    50% {
+        height: 10px;
+    }
+    100% {
+        height: 100px;
+    }
+}
+
+.line9 {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: nueve .5s infinite ease-out;
+}
+
+@keyframes nueve {
+    50% {
+        height: 60px;
+        background-color: brown;
+    }
+    100% {
+        height: 80px;
+        background-color: white;
+    }
+}
+
+.line10 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: diez .5s infinite ease-out;
+}
+
+@keyframes diez {
+    50% {
+        height: 35px;
+    }
+    100% {
+        height: 150px;
+    }
+}
+
+.line11 {
+    width: 30px;
+    height: 40px;
+    background-color: white;
+    animation: once .5s infinite ease-out;
+}
+
+@keyframes once {
+    50% {
+        height: 40px;
+        background-color: white;
+    }
+    100% {
+        height: 80px;
+        background-color: brown;
+    }
+}
+
+.line12 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: doce .5s infinite ease-out;
+}
+
+@keyframes doce {
+    50% {
+        height: 70px;
+    }
+    100% {
+        height: 80px;
+    }
+}
+
+.line13 {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: trece .5s infinite ease-out;
+}
+
+@keyframes trece {
+    50% {
+        height: 70px;
+        background-color: brown;
+    }
+    100% {
+        height: 150px;
+        background-color: white;
+    }
+}
+
+.line14 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: catorce .5s infinite ease-out;
+}
+
+@keyframes catorce {
+    50% {
+        height: 90px;
+    }
+    100% {
+        height: 150px;
+    }
+}
+
+.line15 {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: quince .5s infinite ease-out;
+}
+
+@keyframes quince {
+    50% {
+        height: 50px;
+        background-color: white;
+    }
+    100% {
+        height: 100px;
+        background-color: brown;
+    }
+}
+
+.line16 {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    animation: diezyseis .5s infinite ease-out;
+}
+
+@keyframes diezyseis {
+    50% {
+        height: 80px;
+    }
+    100% {
+        height: 120px;
+    }
+}
+
+.line17 {
+    width: 30px;
+    height: 100px;
+    background-color: white;
+    animation: diezisiete .5s infinite ease-out;
+}
+
+@keyframes diezisiete {
+    50% {
+        height: 50px;
+        background-color: brown;
+    }
+    100% {
+        height: 150px;
+        background-color: white;
+    }
+}
+
+.contenedor-avatar {
+    width: 100%;
+    height: 250px;
+    margin-top: 80px
+}
+
+.cuerpo {
+    width: 250px;
+    background-color: white;
+    height: 250px;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 10px;
+}
+
+.ojos {
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+#title_center {
+    animation: title .5s infinite ease-out;
+}
+
+@keyframes title {
+    30% {
+        color: yellowgreen;
+    }
+    40% {
+        color: wheat;
+    }
+    50% {
+        color: red;
+    }
+    70% {
+        color: orangered;
+    }
+    100% {
+        color: cornsilk;
+    }
+}
+
+#canvas {
+    padding-right: 50px;
+    opacity: 0.8;
+}
+
+#canvas2 {
+    opacity: 0.8;
+    padding-left: 50px;
+}
