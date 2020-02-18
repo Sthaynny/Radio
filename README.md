@@ -7,22 +7,22 @@ Radio
 <h2 align="center">Midia de musica simples</h2>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Sthaynny/conversor_de_moeda-em-flutter">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Sthaynny/Radio">
+  
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Sthaynny/MaratonaDev">
-  <!-- trocar: 'Sthaynny/<<REpositorio>>' pelo caminho do seu respositório -->
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Sthaynny/Radio">
+  
 
-  <a href="https://github.com/Sthaynny/MaratonaDev/commits/master">
-  <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sthaynny/MaratonaDev">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <a href="https://github.com/Sthaynny/Radio/commits/master">
+  <!-- -->
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sthaynny/Radio">
+    
   </a>
 
-  <a href="https://github.com/Sthaynny/MaratonaDev">
-   <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Sthaynny/MaratonaDev">
-     <!-- trocar: 'rlocatelli9/template-README' pelo caminho do seu respositório -->
+  <a href="https://github.com/Sthaynny/Radio">
+   <!-- -->
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Sthaynny/Radio">
+     
 
   </a>
 
